@@ -1,0 +1,34 @@
+<html>
+<body>
+
+<script>
+var day = new Date();
+var today = day.getDay();
+var darray = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saterday"];
+
+var ghanta = day.getHours();
+var minut = day.getMinutes();
+var secund = day.getSeconds();
+
+if(ghanta >= 12){
+
+var sim = ghanta - 12;
+
+document.write( "today is" + " " + darray[today] + "
+" );
+document.write("Time is" + " " + sim + "PM" + " : " + minut + " : " + secund + "
+");
+
+}
+else{
+var som = ghanta;
+
+document.write( "today is" + " " + " " + darray[today] + "
+" );
+document.write("Time is" + " " + som + "AM" + " : " + minut + " : " + secund);
+}
+
+</script>
+
+</body>
+</html>
