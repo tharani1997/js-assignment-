@@ -1,0 +1,27 @@
+<script>
+
+Var marks= prompt("enter your mark");
+
+Switch(marks){
+
+Case marks:
+
+            If(marks>=35 && marks<80)
+
+            Console.log("grade B you are pass");
+
+            break;
+
+Case marks:
+
+             If(marks>=80)
+
+             Console.log("grade A you are good");
+
+             break;
+
+default:
+
+          console.log("you are fail");
+
+</script>
