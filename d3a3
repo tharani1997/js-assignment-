@@ -1,0 +1,5 @@
+  Var os=prompt("enter your os");
+
+         Var version=prompt("enter your version"):
+
+        Console.log( `your os is ${os} and version is ${version}`) ;
