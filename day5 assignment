@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+   var num = 5;
+   document.write("Number = "+num+"<br>");
+   if(num % 2 == 0) {
+      document.write('Number is even!');
+   } else {
+      document.write('Number is odd!');
+   }
+</script>
+</body>
+</html>
+
+
+
+<script>
+
+Var marks= prompt("enter your mark");
+
+Switch(marks){
+
+Case marks:
+
+            If(marks>=35 && marks<80)
+
+            Console.log("grade B you are pass");
+
+            break;
+
+Case marks:
+
+             If(marks>=80)
+
+             Console.log("grade A you are good");
+
+             break;
+
+default:
+
+          console.log("you are fail");
+
+</script>
+
+
+
+
+
+  
+   Var os=prompt("enter your os");
+
+         Var version=prompt("enter your version"):
+
+        Console.log( `your os is ${os} and version is ${version}`) ;
