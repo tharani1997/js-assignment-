@@ -1,0 +1,43 @@
+1. 
+
+function change(i) {  
+   var doc = document.getElementById("background");  
+   var color =[ "black", "blue", "brown", "green"];  
+   for(i=0; i<color.length; i++){  
+        doc.style.backgroundColor = color[i];  
+        alert("my color is "+ color[i]);  
+/*if (i>=color.length){i=0;}*/  
+    }
+ }  
+setInterval(function changebackground(){change(0)},5);
+
+
+
+2. 
+<script>
+function printTable(num) {
+    var input = num.value;
+    if(!isNaN(input)) {
+        var table="";
+        var number="";
+        for(i=1;i<=10;i++) {
+            number = input * i;
+            table +=  input + " * " + i + " = " + number + "<br/>";
+        }
+        document.getElementById("mul").innerHTML = table;
+    }
+    else {
+        document.getElementById("mul").innerHTML = "Please Enter a valid Number";
+    }
+}
+</script>
+
+
+
+3. 
+let shadesEl = document.querySelector('.cool');
+
+console.log(shadesEl.classList);
+// ["cool", "new", "shades", value: "cool new shades"]
+
+console.log(shadesEl.classList[1]); // new
